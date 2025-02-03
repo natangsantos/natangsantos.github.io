@@ -22,14 +22,14 @@
   /* Hover Effect */
   .certification-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgb(255, 1, 1);
     background: var(--color-background-hover); /* Add to CSS variables */
   }
   
   /* Badge Image (Left Side) */
   .cert-badge {
-    width: 80px; /* Fixed width */
-    height: 80px; /* Fixed height */
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
     object-fit: contain; /* Prevent stretching */
     border-radius: 6px;
     flex-shrink: 0; /* Prevent image from shrinking */
