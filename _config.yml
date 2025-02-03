@@ -171,6 +171,8 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+      extra_css: #added
+        - "/assets/css/certifications.css"
 
 sass:
   style: compressed

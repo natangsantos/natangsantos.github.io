@@ -20,8 +20,8 @@
   
   /* Force small badge size */
   .cert-badge {
-    width: 80px !important;  /* Force small size */
-    height: 80px !important; /* Override any other styles */
+    width: 40px !important;  /* Force small size */
+    height: 40px !important; /* Override any other styles */
     object-fit: contain;     /* Prevent stretching */
     flex-shrink: 0;         /* Prevent image from shrinking */
   }

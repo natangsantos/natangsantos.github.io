@@ -2,7 +2,8 @@
 layout: page
 icon: fas fa-info-circle
 order: 4
-extra_css: "/assets/css/certifications.css"
+extra_css: 
+    - "/assets/css/certifications.css"
 ---
 
 
