@@ -36,17 +36,3 @@
     transform: translateY(-3px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
-  
-  /* Mobile responsiveness */
-  @media (max-width: 768px) {
-    .certification-card {
-      flex-direction: column; /* Stack vertically on small screens */
-      align-items: center;
-      text-align: center;
-    }
-    
-    .cert-badge {
-      width: 100px !important;
-      height: 100px !important;
-    }
-  }
