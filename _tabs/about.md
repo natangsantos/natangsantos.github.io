@@ -25,11 +25,6 @@ order: 4
             <i class="fas fa-external-link-alt"></i> Verify
           </a>
         {% endif %}
-        {% if cert.pdf %}
-          <a href="{{ cert.pdf | relative_url }}">
-            <i class="fas fa-file-pdf"></i> PDF
-          </a>
-        {% endif %}
       </div>
     </div>
   </div>
