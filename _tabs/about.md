@@ -12,7 +12,9 @@ order: 4
 <div class="certifications-grid">
   {% for cert in site.data.certifications %}
   <div class="certification-card">
+    <!-- Left: Badge -->
     <img src="{{ cert.badge | relative_url }}" alt="{{ cert.alt }}" class="cert-badge">
+    <!-- Right: Content -->
     <div class="cert-content">
       <h3>{{ cert.title }}</h3>
       <p class="cert-issuer">Issued by {{ cert.issuer }}</p>

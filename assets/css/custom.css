@@ -1,22 +1,22 @@
 /* Certifications Grid Container */
 .certifications-grid {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Columns adjust based on screen size */
     gap: 1.5rem;
     margin: 2rem 0;
   }
   
   /* Individual Certification Card */
   .certification-card {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px 1fr; /* Image (left) + Content (right) */
     gap: 1.5rem;
-    align-items: flex-start; /* Align items to top */
+    align-items: start;
     background: var(--color-background);
     border: 1px solid var(--color-border);
     border-radius: 8px;
     padding: 1.5rem;
     transition: all 0.3s ease;
-    cursor: pointer;
   }
   
   /* Hover Effect */
@@ -91,16 +91,14 @@
   }
 
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .certification-card {
-      flex-direction: column;
-      align-items: center;
+      grid-template-columns: 1fr; /* Stack vertically on small screens */
       text-align: center;
     }
     
     .cert-badge {
-      width: 100px;
-      height: 100px;
+      margin: 0 auto; /* Center the badge */
     }
     
     .cert-links {
