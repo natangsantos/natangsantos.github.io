@@ -9,19 +9,25 @@ order: 4
 
 ## Certifications
 
-{% for cert in site.data.certifications %}
-<div class="certification-block">
-  <h3>{{ cert.title }}</h3>
-  <p><strong>Issuer:</strong> {{ cert.issuer }}</p>
-  <p><strong>Date:</strong> {{ cert.date }}</p>
-  {% if cert.verify_url %}
-    <a href="{{ cert.verify_url }}">Verify</a>
-  {% endif %}
-  {% if cert.pdf %}
-    | <a href="{{ cert.pdf }}">PDF</a>
-  {% endif %}
-  {% if cert.badge %}
-    <img src="{{ cert.badge }}" alt="{{ cert.title }} Badge" width="100">
-  {% endif %}
+<div class="certifications-grid">
+  {% for cert in site.data.certifications %}
+  <div class="certification-card">
+    <img src="{{ cert.badge | relative_url }}" class="cert-badge">
+    <h3>{{ cert.title }}</h3>
+    <p class="cert-issuer">Issued by {{ cert.issuer }}</p>
+    <p class="cert-date">{{ cert.date }}</p>
+    <div class="cert-links">
+      {% if cert.verify_url %}
+        <a href="{{ cert.verify_url }}" target="_blank">
+          <i class="fas fa-external-link-alt"></i> Verify
+        </a>
+      {% endif %}
+      {% if cert.pdf %}
+        <a href="{{ cert.pdf | relative_url }}">
+          <i class="fas fa-file-pdf"></i> PDF
+        </a>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}
