@@ -1,0 +1,11 @@
+- title: "AWS Certified Cloud Practitoner"
+  issuer: "Amazon Web Services"
+  date: "Mar 2024"
+  verify_url: " "
+  badge: "/badges/aws-certified-cloud-practitioners.png"
+
+- title: "AWS Certified AI Practitoner"
+  issuer: "Amazon Web Services"
+  date: "Out 2024"
+  verify_url: " "
+  badge: "/badges/aws-certified-ai-practitionerss.png"
