@@ -1,107 +1,52 @@
-/* Certifications Grid Container */
+/* Certifications Grid */
 .certifications-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Columns adjust based on screen size */
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
     margin: 2rem 0;
   }
   
-  /* Individual Certification Card */
+  /* Certification Card (Side-by-Side) */
   .certification-card {
-    display: grid;
-    grid-template-columns: 100px 1fr; /* Image (left) + Content (right) */
-    gap: 1.5rem;
-    align-items: start;
+    display: flex;          /* Flexbox layout */
+    gap: 1.5rem;           /* Space between image and text */
+    align-items: flex-start; /* Align items to top */
     background: var(--color-background);
     border: 1px solid var(--color-border);
     border-radius: 8px;
     padding: 1.5rem;
-    transition: all 0.3s ease;
+    transition: transform 0.2s;
   }
   
-  /* Hover Effect */
+  /* Force small badge size */
+  .cert-badge {
+    width: 80px !important;  /* Force small size */
+    height: 80px !important; /* Override any other styles */
+    object-fit: contain;     /* Prevent stretching */
+    flex-shrink: 0;         /* Prevent image from shrinking */
+  }
+  
+  /* Text content takes remaining space */
+  .cert-content {
+    flex-grow: 1;
+  }
+  
+  /* Hover effect */
   .certification-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 15px rgb(255, 1, 1);
-    background: var(--color-background-hover); /* Add to CSS variables */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
   
-  /* Badge Image (Left Side) */
-  .cert-badge {
-    width: 40px; /* Fixed width */
-    height: 40px; /* Fixed height */
-    object-fit: contain; /* Prevent stretching */
-    border-radius: 6px;
-    /*flex-shrink: 0; /* Prevent image from shrinking */
-  }
-  
-  /* Content (Right Side) */
-  .cert-content {
-    flex-grow: 1; /* Take remaining space */
-  }
-  
-  /* Text Styling */
-  .certification-card h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.1rem;
-    color: var(--color-primary);
-  }
-  
-  .cert-issuer {
-    color: var(--color-text-secondary);
-    font-size: 0.9rem;
-    margin: 0 0 0.25rem 0;
-  }
-  
-  .cert-date {
-    color: var(--color-text-tertiary);
-    font-size: 0.85rem;
-    margin: 0 0 1rem 0;
-  }
-  
-  /* Links */
-  .cert-links {
-    margin-top: auto; /* Push links to bottom */
-  }
-  
-  .cert-links a {
-    color: var(--color-primary);
-    text-decoration: none;
-    font-size: 0.9rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    transition: background 0.2s;
-  }
-  
-  .cert-links a:hover {
-    background: rgba(var(--color-primary-rgb), 0.1);
-  }
-  
-  /* Add to CSS variables (at top of file) */
-  :root {
-    --color-background-hover: rgba(0, 0, 0, 0.03); /* Light hover */
-    --color-primary-rgb: 66, 153, 225; /* RGB values for primary color */
-  }
-  
-  /* Dark mode adjustment */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --color-background-hover: rgba(255, 255, 255, 0.05);
-    }
-  }
-
-
+  /* Mobile responsiveness */
   @media (max-width: 768px) {
     .certification-card {
-      grid-template-columns: 1fr; /* Stack vertically on small screens */
+      flex-direction: column; /* Stack vertically on small screens */
+      align-items: center;
       text-align: center;
     }
     
     .cert-badge {
-      margin: 0 auto; /* Center the badge */
-    }
-    
-    .cert-links {
-      justify-content: center;
+      width: 100px !important;
+      height: 100px !important;
     }
   }
