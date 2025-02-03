@@ -1,6 +1,6 @@
 /* Certifications Grid */
 .certifications-grid {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     gap: 1.5rem;
     margin: 2rem 0;
