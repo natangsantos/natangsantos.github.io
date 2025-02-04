@@ -17,7 +17,7 @@ extra_css:
     <small>Numero de Validação: 9e360b5b26f04ae1b147e55617aa70ff </small><br>
     <a href="https://aws.amazon.com/verification" target="_blank" style="
       display: inline-block;
-      padding: 0.3rem 0.8rem;
+      padding: 0.2rem 0.6rem;
       background:rgb(92, 92, 92);
       color: white;
       text-decoration: none;
@@ -37,7 +37,7 @@ extra_css:
     <small>Numero de Validação: 5834aaeb5b184233bb9bae5cae09d925</small><br>
     <a href="https://aws.amazon.com/verification" target="_blank" style="
       display: inline-block;
-      padding: 0.5rem 1rem;
+      padding: 0.2rem 6rem;
       background:rgb(92, 92, 92);
       color: white;
       text-decoration: none;
