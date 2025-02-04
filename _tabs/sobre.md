@@ -13,8 +13,17 @@ extra_css:
   <div>
     <strong>AWS Certified Cloud Practitioner</strong><br>
     <em>Issued by: Amazon Web Services</em><br>
-    <small>March 2024</small><br>
-    [Verify](https://example.com) 
+    <small>Março 2024</small><br>
+    <small>Numero de Validação: 9e360b5b26f04ae1b147e55617aa70ff </small><br>
+    <a href="https://aws.amazon.com/verification" target="_blank" style="
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      ">Verifique ↗</a> 
   </div>
 </div>
 
@@ -24,7 +33,16 @@ extra_css:
   <div>
     <strong>AWS Certified AI Practitioner</strong><br>
     <em>Issued by: Amazon Web Services</em><br>
-    <small>October 2024</small><br>
-    [Verify](https://example.com)
+    <small>Outubro 2024</small><br>
+    <small>Numero de Validação: 5834aaeb5b184233bb9bae5cae09d925</small><br>
+    <a href="https://aws.amazon.com/verification" target="_blank" style="
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      ">Verifique ↗</a> 
   </div>
 </div>
