@@ -9,7 +9,7 @@ extra_css:
 ## Certifications
  <!-- Certification 1 -->
 <div style="display: flex; align-items: center; gap: 1rem; margin: 1rem 0;">
-  <img src="/assets/img/badges/aws-certified-cloud-practitioner.png" alt="AWS Badge" width="120" style="border-radius: 6px;">
+  <img src="/assets/img/badges/aws-certified-cloud-practitioner.png" alt="AWS Badge" width="140" style="border-radius: 6px;">
   <div>
     <strong>AWS Certified Cloud Practitioner</strong><br>
     <em>Issued by: Amazon Web Services</em><br>
@@ -18,10 +18,10 @@ extra_css:
     <a href="https://aws.amazon.com/verification" target="_blank" style="
       display: inline-block;
       padding: 0.5rem 1rem;
-      background: #007bff;
+      background:rgb(67, 0, 112);
       color: white;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 2px;
       font-weight: bold;
       ">Verifique ↗</a> 
   </div>
@@ -29,7 +29,7 @@ extra_css:
 
 <!-- Certification 2 -->
 <div style="display: flex; align-items: center; gap: 1rem; margin: 1rem 0;">
-  <img src="/assets/img/badges/aws-certified-ai-practitioner.png" alt="AWS Badge" width="120" style="border-radius: 6px;">
+  <img src="/assets/img/badges/aws-certified-ai-practitioner.png" alt="AWS Badge" width="140" style="border-radius: 6px;">
   <div>
     <strong>AWS Certified AI Practitioner</strong><br>
     <em>Issued by: Amazon Web Services</em><br>
@@ -38,10 +38,10 @@ extra_css:
     <a href="https://aws.amazon.com/verification" target="_blank" style="
       display: inline-block;
       padding: 0.5rem 1rem;
-      background: #007bff;
+      background:rgb(67, 0, 112);
       color: white;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 2px;
       font-weight: bold;
       ">Verifique ↗</a> 
   </div>
