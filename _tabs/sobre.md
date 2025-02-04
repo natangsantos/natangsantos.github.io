@@ -2,11 +2,9 @@
 layout: page
 icon: fas fa-info-circle
 order: 4
-extra_css: 
-    - "/assets/css/certifications.css"
 ---
 
-## Certifications
+## Certificações
  <!-- Certification 1 -->
 <div style="display: flex; align-items: center; gap: 1rem; margin: 1rem 0;">
   <img src="/assets/img/badges/aws-certified-cloud-practitioner.png" alt="AWS Badge" width="140" style="border-radius: 6px;">
