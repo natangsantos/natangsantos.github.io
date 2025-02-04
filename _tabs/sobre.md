@@ -17,11 +17,11 @@ extra_css:
     <small>Numero de Validação: 9e360b5b26f04ae1b147e55617aa70ff </small><br>
     <a href="https://aws.amazon.com/verification" target="_blank" style="
       display: inline-block;
-      padding: 0.5rem 1rem;
-      background:rgb(67, 0, 112);
+      padding: 0.3rem 0.8rem;
+      background:rgb(92, 92, 92);
       color: white;
       text-decoration: none;
-      border-radius: 2px;
+      border-radius: 0px;
       font-weight: bold;
       ">Verifique ↗</a> 
   </div>
@@ -38,10 +38,10 @@ extra_css:
     <a href="https://aws.amazon.com/verification" target="_blank" style="
       display: inline-block;
       padding: 0.5rem 1rem;
-      background:rgb(67, 0, 112);
+      background:rgb(92, 92, 92);
       color: white;
       text-decoration: none;
-      border-radius: 2px;
+      border-radius: 0px;
       font-weight: bold;
       ">Verifique ↗</a> 
   </div>
