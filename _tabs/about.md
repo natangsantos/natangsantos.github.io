@@ -10,17 +10,16 @@ My academic focus has been on cybersecurity network defense strategies exploring
 
 ## Work Experience
 
-### [Security Champion], [Compass UOL]
 
-[Mai/2024] – [Actual]
-Responsibilities: [Responsibility 1], [Responsibility 2], [Responsibility 3]
-Achievements: [Achievement 1], [Achievement 2], [Achievement 3]
+**Security Champion**, Compass UOL
+*Mai/2024 – Actual*
+Responsibilities: Responsibility 1
+Achievements: Achievement 1
 
-### [infrastructure analyst], [LUZA Group]
-
-[Jan/2024] – [May/2024]
-Responsibilities: [Responsibility 1], [Responsibility 2], [Responsibility 3]
-Achievements: [Achievement 1], [Achievement 2], [Achievement 3]
+**infrastructure analyst**, LUZA Group
+*Jan/2024 – May/2024*
+Responsibilities: Responsibility 1
+Achievements: Achievement 1
 
 ## Certifications
  <!-- Certification 1 -->
