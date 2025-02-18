@@ -12,15 +12,15 @@ Currently part of [Detect AI](https://detectai.fatecourinhos.edu.br/) research l
 
 ## Work Experience
 
-**Security Champion**, Compass UOL
-*Mai/2024 – Actual*
-Responsibilities: Responsibility 1
-Achievements: Achievement 1
+**Security Champion**, Compass UOL  
+*Mai/2024 – Actual*  
+Responsibilities:  
+Achievements:  
 
-**infrastructure analyst**, LUZA Group
-*Jan/2024 – May/2024*
-Responsibilities: Responsibility 1
-Achievements: Achievement 1
+**infrastructure analyst**, LUZA Group  
+*Jan/2024 – May/2024*  
+Responsibilities:  
+Achievements:  
 
 ## Certifications
  <!-- Certification 1 -->
@@ -29,8 +29,8 @@ Achievements: Achievement 1
   <div>
     <strong>AWS Certified Cloud Practitioner</strong><br>
     <em>Issued by: Amazon Web Services</em><br>
-    <small>Março 2024</small><br>
-    <small>Numero de Validação: 9e360b5b26f04ae1b147e55617aa70ff </small><br>
+    <small>Mar 2024</small><br>
+    <small>Validation Number: 9e360b5b26f04ae1b147e55617aa70ff </small><br>
     <a href="https://aws.amazon.com/verification" target="_blank" style="
       display: inline-block;
       padding: 0.2rem 0.6rem;
@@ -39,7 +39,7 @@ Achievements: Achievement 1
       text-decoration: none;
       border-radius: 0px;
       font-weight: bold;
-      ">Verifique ↗</a> 
+      ">Verify ↗</a> 
   </div>
 </div>
 
@@ -49,8 +49,8 @@ Achievements: Achievement 1
   <div>
     <strong>AWS Certified AI Practitioner</strong><br>
     <em>Issued by: Amazon Web Services</em><br>
-    <small>Outubro 2024</small><br>
-    <small>Numero de Validação: 5834aaeb5b184233bb9bae5cae09d925</small><br>
+    <small>Oct 2024</small><br>
+    <small>Validation Number: 5834aaeb5b184233bb9bae5cae09d925</small><br>
     <a href="https://aws.amazon.com/verification" target="_blank" style="
       display: inline-block;
       padding: 0.2rem 0.6rem;
@@ -59,6 +59,6 @@ Achievements: Achievement 1
       text-decoration: none;
       border-radius: 0px;
       font-weight: bold;
-      ">Verifique ↗</a> 
+      ">Verify ↗</a> 
   </div>
 </div>
