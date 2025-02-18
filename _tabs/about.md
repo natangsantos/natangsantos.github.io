@@ -5,11 +5,12 @@ order: 4
 ---
 ## Studies & Researches
 
-I am expected to graduate with a degree in Information Security by august 2025. 
-My academic focus has been on cybersecurity network defense strategies exploring the application of machine learning models in Intrusion Detection Systems (IDS), aiming to enhance threat detection efficiency. 
+I am expected to graduate with a degree in Information Security by august 2025.  
+
+My academic focus has been on cybersecurity network defense strategies exploring the application of machine learning models in Intrusion Detection Systems (IDS), aiming to enhance threat detection efficiency.  
+Currently part of [Detect AI](https://detectai.fatecourinhos.edu.br/) research lab.
 
 ## Work Experience
-
 
 **Security Champion**, Compass UOL
 *Mai/2024 – Actual*
