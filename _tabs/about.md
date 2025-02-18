@@ -3,9 +3,24 @@ layout: page
 icon: fas fa-info-circle
 order: 4
 ---
-## Studies and Researches
+## Studies & Researches
+
+I am expected to graduate with a degree in Information Security by august 2025. 
+My academic focus has been on cybersecurity network defense strategies exploring the application of machine learning models in Intrusion Detection Systems (IDS), aiming to enhance threat detection efficiency. 
 
 ## Work Experience
+
+### [Security Champion], [Compass UOL]
+
+[Mai/2024] – [Actual]
+Responsibilities: [Responsibility 1], [Responsibility 2], [Responsibility 3]
+Achievements: [Achievement 1], [Achievement 2], [Achievement 3]
+
+### [infrastructure analyst], [LUZA Group]
+
+[Jan/2024] – [May/2024]
+Responsibilities: [Responsibility 1], [Responsibility 2], [Responsibility 3]
+Achievements: [Achievement 1], [Achievement 2], [Achievement 3]
 
 ## Certifications
  <!-- Certification 1 -->
