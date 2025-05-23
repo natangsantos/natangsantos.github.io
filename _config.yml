@@ -16,7 +16,7 @@ timezone:
 
 title: NGS # the main title
 
-tagline: InfoSec | DevOps # it will display as the sub-title
+tagline: AI & ML | DevSecOps # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
